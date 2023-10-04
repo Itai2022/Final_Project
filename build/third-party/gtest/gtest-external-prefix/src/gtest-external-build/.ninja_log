@@ -1,0 +1,12 @@
+# ninja log v5
+2	411	1675626368870068382	googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	e17e75cca7326644
+1	534	1675626368992521896	googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o	bc152ccd8ff6a277
+1	762	1675626369220961873	googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o	b7b9bf3d690c1ac1
+1	767	1675626369226294517	googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o	ddcc03ae9f095068
+1	1035	1675626369492675992	googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o	71dcd89574aff183
+0	1044	1675626369501755382	googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o	310364a61109d70d
+1	1048	1675626369506186203	googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	fa1dbcc1725120d2
+1048	1069	1675626369530696000	googlemock/gtest/Debug/libgtest.a	6e5ee14e5a47c024
+1036	1073	1675626369536167000	googlemock/Debug/libgmock_main.a	dc0e10e1e0e17ced
+1044	1073	1675626369536166000	googlemock/Debug/libgmock.a	e1c4232a578a2750
+1069	1081	1675626369543876000	googlemock/gtest/Debug/libgtest_main.a	31d0121cc46adb78

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/third-party/gtest/CMakeFiles/gtest-external"
+		},
+		{
+			"file" : "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/third-party/gtest/CMakeFiles/gtest-external.rule"
+		},
+		{
+			"file" : "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/third-party/gtest/CMakeFiles/gtest-external-complete.rule"
+		},
+		{
+			"file" : "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/third-party/gtest/gtest-external-prefix/src/gtest-external-stamp/gtest-external-build.rule"
+		},
+		{
+			"file" : "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/third-party/gtest/gtest-external-prefix/src/gtest-external-stamp/gtest-external-configure.rule"
+		},
+		{
+			"file" : "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/third-party/gtest/gtest-external-prefix/src/gtest-external-stamp/gtest-external-download.rule"
+		},
+		{
+			"file" : "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/third-party/gtest/gtest-external-prefix/src/gtest-external-stamp/gtest-external-install.rule"
+		},
+		{
+			"file" : "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/third-party/gtest/gtest-external-prefix/src/gtest-external-stamp/gtest-external-mkdir.rule"
+		},
+		{
+			"file" : "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/third-party/gtest/gtest-external-prefix/src/gtest-external-stamp/gtest-external-patch.rule"
+		},
+		{
+			"file" : "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/third-party/gtest/gtest-external-prefix/src/gtest-external-stamp/gtest-external-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gtest-external"
+		],
+		"name" : "gtest-external"
+	}
+}

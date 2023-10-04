@@ -1,0 +1,11 @@
+[1/11] Building CXX object googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[2/11] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[3/11] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o
+[4/11] Building CXX object googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[5/11] Building CXX object googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o
+[6/11] Building CXX object googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o
+[7/11] Building CXX object googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[8/11] Linking CXX static library googlemock/gtest/Debug/libgtest.a
+[9/11] Linking CXX static library googlemock/Debug/libgmock_main.a
+[10/11] Linking CXX static library googlemock/Debug/libgmock.a
+[11/11] Linking CXX static library googlemock/gtest/Debug/libgtest_main.a

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<VTKFile type="PStructuredGrid">
+<PStructuredGrid WholeExtent="0 29 0 29 0 0 " GhostLevel="1">
+<PPoints>
+<PDataArray type="Float64" Name="coordinate" NumberOfComponents="3" format="ascii">
+</PDataArray>
+</PPoints>
+<PPointData>
+<PDataArray type="Float64" Name="heat" NumberOfComponents="1" format="ascii">
+</PDataArray>
+</PPointData>
+<Piece Extent="0 15 0 15 0 0 " Source="heat_timestep_3_processor0.vts">
+</Piece>
+<Piece Extent="0 15 14 29 0 0 " Source="heat_timestep_3_processor1.vts">
+</Piece>
+<Piece Extent="14 29 0 15 0 0 " Source="heat_timestep_3_processor2.vts">
+</Piece>
+<Piece Extent="14 29 14 29 0 0 " Source="heat_timestep_3_processor3.vts">
+</Piece>
+</PStructuredGrid>
+</VTKFile>

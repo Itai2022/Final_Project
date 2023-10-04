@@ -1,0 +1,2307 @@
+Start testing: Feb 05 21:00 CET
+----------------------------------------------------------
+1/46 Testing: test_vector
+1/46 Test: test_vector
+Command: "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_vector"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_vector" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[==========] Running 27 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 9 tests from VectorDouble
+[ RUN      ] VectorDouble.default_construct
+[       OK ] VectorDouble.default_construct (0 ms)
+[ RUN      ] VectorDouble.value_construct
+[       OK ] VectorDouble.value_construct (0 ms)
+[ RUN      ] VectorDouble.size_construct
+[       OK ] VectorDouble.size_construct (0 ms)
+[ RUN      ] VectorDouble.copy_construct
+[       OK ] VectorDouble.copy_construct (0 ms)
+[ RUN      ] VectorDouble.copy_assign
+[       OK ] VectorDouble.copy_assign (0 ms)
+[ RUN      ] VectorDouble.move_construct
+[       OK ] VectorDouble.move_construct (0 ms)
+[ RUN      ] VectorDouble.move_assign
+[       OK ] VectorDouble.move_assign (0 ms)
+[ RUN      ] VectorDouble.value_construct_modify
+[       OK ] VectorDouble.value_construct_modify (0 ms)
+[ RUN      ] VectorDouble.size_construct_modify
+[       OK ] VectorDouble.size_construct_modify (0 ms)
+[----------] 9 tests from VectorDouble (0 ms total)
+
+[----------] 9 tests from VectorFloat
+[ RUN      ] VectorFloat.default_construct
+[       OK ] VectorFloat.default_construct (0 ms)
+[ RUN      ] VectorFloat.value_construct
+[       OK ] VectorFloat.value_construct (0 ms)
+[ RUN      ] VectorFloat.size_construct
+[       OK ] VectorFloat.size_construct (0 ms)
+[ RUN      ] VectorFloat.copy_construct
+[       OK ] VectorFloat.copy_construct (0 ms)
+[ RUN      ] VectorFloat.copy_assign
+[       OK ] VectorFloat.copy_assign (0 ms)
+[ RUN      ] VectorFloat.move_construct
+[       OK ] VectorFloat.move_construct (0 ms)
+[ RUN      ] VectorFloat.move_assign
+[       OK ] VectorFloat.move_assign (0 ms)
+[ RUN      ] VectorFloat.value_construct_modify
+[       OK ] VectorFloat.value_construct_modify (0 ms)
+[ RUN      ] VectorFloat.size_construct_modify
+[       OK ] VectorFloat.size_construct_modify (0 ms)
+[----------] 9 tests from VectorFloat (0 ms total)
+
+[----------] 9 tests from VectorDoubleComplex
+[ RUN      ] VectorDoubleComplex.default_construct
+[       OK ] VectorDoubleComplex.default_construct (0 ms)
+[ RUN      ] VectorDoubleComplex.value_construct
+[       OK ] VectorDoubleComplex.value_construct (0 ms)
+[ RUN      ] VectorDoubleComplex.size_construct
+[       OK ] VectorDoubleComplex.size_construct (0 ms)
+[ RUN      ] VectorDoubleComplex.copy_construct
+[       OK ] VectorDoubleComplex.copy_construct (0 ms)
+[ RUN      ] VectorDoubleComplex.copy_assign
+[       OK ] VectorDoubleComplex.copy_assign (0 ms)
+[ RUN      ] VectorDoubleComplex.move_construct
+[       OK ] VectorDoubleComplex.move_construct (0 ms)
+[ RUN      ] VectorDoubleComplex.move_assign
+[       OK ] VectorDoubleComplex.move_assign (0 ms)
+[ RUN      ] VectorDoubleComplex.value_construct_modify
+[       OK ] VectorDoubleComplex.value_construct_modify (0 ms)
+[ RUN      ] VectorDoubleComplex.size_construct_modify
+[       OK ] VectorDoubleComplex.size_construct_modify (0 ms)
+[----------] 9 tests from VectorDoubleComplex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 27 tests from 3 test cases ran. (0 ms total)
+[  PASSED  ] 27 tests.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"test_vector" end time: Feb 05 21:00 CET
+"test_vector" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/46 Testing: test_matrix
+2/46 Test: test_matrix
+Command: "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_matrix"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_matrix" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 7 tests from SparseMatrix
+[ RUN      ] SparseMatrix.default_construct
+[       OK ] SparseMatrix.default_construct (0 ms)
+[ RUN      ] SparseMatrix.value_construct
+[       OK ] SparseMatrix.value_construct (0 ms)
+[ RUN      ] SparseMatrix.copy_construct
+[       OK ] SparseMatrix.copy_construct (0 ms)
+[ RUN      ] SparseMatrix.copy_assign
+[       OK ] SparseMatrix.copy_assign (0 ms)
+[ RUN      ] SparseMatrix.move_construct
+[       OK ] SparseMatrix.move_construct (0 ms)
+[ RUN      ] SparseMatrix.move_assign
+[       OK ] SparseMatrix.move_assign (0 ms)
+[ RUN      ] SparseMatrix.value_construct_modify
+[       OK ] SparseMatrix.value_construct_modify (0 ms)
+[----------] 7 tests from SparseMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Passed.
+"test_matrix" end time: Feb 05 21:00 CET
+"test_matrix" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/46 Testing: test_operations
+3/46 Test: test_operations
+Command: "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_operations"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_operations" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from Operations
+[ RUN      ] Operations.equals_vector_vector
+[       OK ] Operations.equals_vector_vector (0 ms)
+[ RUN      ] Operations.assign_vector_scalar
+[       OK ] Operations.assign_vector_scalar (0 ms)
+[ RUN      ] Operations.subtract_vector_vector
+[       OK ] Operations.subtract_vector_vector (0 ms)
+[ RUN      ] Operations.dot_product
+[       OK ] Operations.dot_product (0 ms)
+[ RUN      ] Operations.multiply_sparsematrix_vector
+[       OK ] Operations.multiply_sparsematrix_vector (0 ms)
+[----------] 5 tests from Operations (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"test_operations" end time: Feb 05 21:00 CET
+"test_operations" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/46 Testing: test_parallel_partition_np1
+4/46 Test: test_parallel_partition_np1
+Command: "/opt/homebrew/bin/mpiexec" "-n" "1" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_partition"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_partition_np1" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 4 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m4 tests from Partition
+[0;32m[ RUN      ] [mPartition.default_construct
+[0;32m[       OK ] [mPartition.default_construct (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_partition
+[0;32m[       OK ] [mPartition.create_with_partition (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_local_sizes
+[0;32m[       OK ] [mPartition.create_with_local_sizes (0 ms)
+[0;32m[ RUN      ] [mPartition.create_uniform
+[0;32m[       OK ] [mPartition.create_uniform (0 ms)
+[0;32m[----------] [m4 tests from Partition (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m4 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m4 tests.
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_partition_np1" end time: Feb 05 21:00 CET
+"test_parallel_partition_np1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/46 Testing: test_parallel_vector_np1
+5/46 Test: test_parallel_vector_np1
+Command: "/opt/homebrew/bin/mpiexec" "-n" "1" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_vector"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_vector_np1" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 3 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m3 tests from ParallelVectorDouble
+[0;32m[ RUN      ] [mParallelVectorDouble.local_values_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_values_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.local_size_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_size_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.partition_construct
+[0;32m[       OK ] [mParallelVectorDouble.partition_construct (0 ms)
+[0;32m[----------] [m3 tests from ParallelVectorDouble (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m3 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m3 tests.
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_vector_np1" end time: Feb 05 21:00 CET
+"test_parallel_vector_np1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/46 Testing: test_parallel_matrix_np1
+6/46 Test: test_parallel_matrix_np1
+Command: "/opt/homebrew/bin/mpiexec" "-n" "1" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_matrix"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_matrix_np1" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ParallelSparseMatrix
+[0;32m[ RUN      ] [mParallelSparseMatrix.local_values_construct
+[0;32m[       OK ] [mParallelSparseMatrix.local_values_construct (0 ms)
+[0;32m[ RUN      ] [mParallelSparseMatrix.partition_local_values_construct
+[0;32m[       OK ] [mParallelSparseMatrix.partition_local_values_construct (0 ms)
+[0;32m[----------] [m2 tests from ParallelSparseMatrix (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_matrix_np1" end time: Feb 05 21:00 CET
+"test_parallel_matrix_np1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/46 Testing: test_parallel_exchangepattern_np1
+7/46 Test: test_parallel_exchangepattern_np1
+Command: "/opt/homebrew/bin/mpiexec" "-n" "1" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_exchangepattern"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_exchangepattern_np1" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_diagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_diagonal_matrix (0 ms)
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m2 tests from ExchangePattern (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_exchangepattern_np1" end time: Feb 05 21:00 CET
+"test_parallel_exchangepattern_np1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/46 Testing: test_parallel_exchangedata_np1
+8/46 Test: test_parallel_exchangedata_np1
+Command: "/opt/homebrew/bin/mpiexec" "-n" "1" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_exchangedata"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_exchangedata_np1" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 2 tests from 2 test cases.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ExchangeData
+[0;32m[ RUN      ] [mExchangeData.exchange_tri_diagonal
+[0;32m[       OK ] [mExchangeData.exchange_tri_diagonal (0 ms)
+[0;32m[----------] [m1 test from ExchangeData (0 ms total)
+
+[0;32m[----------] [m1 test from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m1 test from ExchangePattern (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 2 test cases ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_exchangedata_np1" end time: Feb 05 21:00 CET
+"test_parallel_exchangedata_np1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/46 Testing: test_parallel_operations_np1
+9/46 Test: test_parallel_operations_np1
+Command: "/opt/homebrew/bin/mpiexec" "-n" "1" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_operations"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_operations_np1" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 6 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m6 tests from Operations
+[0;32m[ RUN      ] [mOperations.equals_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.equals_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.assign_parallelvector_scalar
+[0;32m[       OK ] [mOperations.assign_parallelvector_scalar (0 ms)
+[0;32m[ RUN      ] [mOperations.add_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.add_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.subtract_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.subtract_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.parallel_dot_product
+[0;32m[       OK ] [mOperations.parallel_dot_product (0 ms)
+[0;32m[ RUN      ] [mOperations.multiply_parallelsparsematrix_parallelvector
+[0;32m[       OK ] [mOperations.multiply_parallelsparsematrix_parallelvector (0 ms)
+[0;32m[----------] [m6 tests from Operations (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m6 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m6 tests.
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_operations_np1" end time: Feb 05 21:00 CET
+"test_parallel_operations_np1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/46 Testing: test_parallel_partition_np2
+10/46 Test: test_parallel_partition_np2
+Command: "/opt/homebrew/bin/mpiexec" "-n" "2" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_partition"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_partition_np2" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 4 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m4 tests from Partition
+[0;32m[ RUN      ] [mPartition.default_construct
+[0;32m[       OK ] [mPartition.default_construct (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_partition
+[0;32m[==========] [mRunning 4 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m4 tests from Partition
+[0;32m[ RUN      ] [mPartition.default_construct
+[0;32m[       OK ] [mPartition.default_construct (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_partition
+[0;32m[       OK ] [mPartition.create_with_partition (0 ms)
+[0;32m[       OK ] [mPartition.create_with_partition (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_local_sizes
+[0;32m[ RUN      ] [mPartition.create_with_local_sizes
+[0;32m[       OK ] [mPartition.create_with_local_sizes (0 ms)
+[0;32m[ RUN      ] [mPartition.create_uniform
+[0;32m[       OK ] [mPartition.create_uniform (0 ms)
+[0;32m[       OK ] [mPartition.create_with_local_sizes (0 ms)
+[0;32m[ RUN      ] [mPartition.create_uniform
+[0;32m[       OK ] [mPartition.create_uniform (0 ms)
+[0;32m[----------] [m4 tests from Partition (0 ms total)
+
+[0;32m[----------] [m4 tests from Partition (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m4 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m4 tests.
+[0;32m[==========] [m4 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m4 tests.
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_partition_np2" end time: Feb 05 21:00 CET
+"test_parallel_partition_np2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/46 Testing: test_parallel_vector_np2
+11/46 Test: test_parallel_vector_np2
+Command: "/opt/homebrew/bin/mpiexec" "-n" "2" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_vector"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_vector_np2" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 3 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m3 tests from ParallelVectorDouble
+[0;32m[ RUN      ] [mParallelVectorDouble.local_values_construct
+[0;32m[==========] [mRunning 3 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m3 tests from ParallelVectorDouble
+[0;32m[ RUN      ] [mParallelVectorDouble.local_values_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_values_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.local_size_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_values_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.local_size_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_size_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.partition_construct
+[0;32m[       OK ] [mParallelVectorDouble.partition_construct (0 ms)
+[0;32m[       OK ] [mParallelVectorDouble.local_size_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.partition_construct
+[0;32m[       OK ] [mParallelVectorDouble.partition_construct (0 ms)
+[0;32m[----------] [m3 tests from ParallelVectorDouble (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[----------] [m3 tests from ParallelVectorDouble (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m3 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m3 tests.
+[0;32m[==========] [m3 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m3 tests.
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_vector_np2" end time: Feb 05 21:00 CET
+"test_parallel_vector_np2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/46 Testing: test_parallel_matrix_np2
+12/46 Test: test_parallel_matrix_np2
+Command: "/opt/homebrew/bin/mpiexec" "-n" "2" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_matrix"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_matrix_np2" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ParallelSparseMatrix
+[0;32m[ RUN      ] [mParallelSparseMatrix.local_values_construct
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ParallelSparseMatrix
+[0;32m[ RUN      ] [mParallelSparseMatrix.local_values_construct
+[0;32m[       OK ] [mParallelSparseMatrix.local_values_construct (0 ms)
+[0;32m[ RUN      ] [mParallelSparseMatrix.partition_local_values_construct
+[0;32m[       OK ] [mParallelSparseMatrix.local_values_construct (0 ms)
+[0;32m[ RUN      ] [mParallelSparseMatrix.partition_local_values_construct
+[0;32m[       OK ] [mParallelSparseMatrix.partition_local_values_construct (0 ms)
+[0;32m[----------] [m2 tests from ParallelSparseMatrix (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[       OK ] [mParallelSparseMatrix.partition_local_values_construct (0 ms)
+[0;32m[----------] [m2 tests from ParallelSparseMatrix (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[==========] [m2 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_matrix_np2" end time: Feb 05 21:00 CET
+"test_parallel_matrix_np2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/46 Testing: test_parallel_exchangepattern_np2
+13/46 Test: test_parallel_exchangepattern_np2
+Command: "/opt/homebrew/bin/mpiexec" "-n" "2" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_exchangepattern"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_exchangepattern_np2" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_diagonal_matrix
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_diagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_diagonal_matrix (0 ms)
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m2 tests from ExchangePattern (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[       OK ] [mExchangePattern.create_diagonal_matrix (0 ms)
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m2 tests from ExchangePattern (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_exchangepattern_np2" end time: Feb 05 21:00 CET
+"test_parallel_exchangepattern_np2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/46 Testing: test_parallel_exchangedata_np2
+14/46 Test: test_parallel_exchangedata_np2
+Command: "/opt/homebrew/bin/mpiexec" "-n" "2" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_exchangedata"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_exchangedata_np2" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 2 tests from 2 test cases.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ExchangeData
+[0;32m[ RUN      ] [mExchangeData.exchange_tri_diagonal
+[0;32m[==========] [mRunning 2 tests from 2 test cases.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ExchangeData
+[0;32m[ RUN      ] [mExchangeData.exchange_tri_diagonal
+[0;32m[       OK ] [mExchangeData.exchange_tri_diagonal (0 ms)
+[0;32m[----------] [m1 test from ExchangeData (0 ms total)
+
+[0;32m[----------] [m1 test from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangeData.exchange_tri_diagonal (0 ms)
+[0;32m[----------] [m1 test from ExchangeData (0 ms total)
+
+[0;32m[----------] [m1 test from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m1 test from ExchangePattern (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 2 test cases ran. (0 ms total)
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m1 test from ExchangePattern (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[==========] [m2 tests from 2 test cases ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_exchangedata_np2" end time: Feb 05 21:00 CET
+"test_parallel_exchangedata_np2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/46 Testing: test_parallel_operations_np2
+15/46 Test: test_parallel_operations_np2
+Command: "/opt/homebrew/bin/mpiexec" "-n" "2" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_operations"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_operations_np2" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 6 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m6 tests from Operations
+[0;32m[ RUN      ] [mOperations.equals_parallelvector_parallelvector
+[0;32m[==========] [mRunning 6 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m6 tests from Operations
+[0;32m[ RUN      ] [mOperations.equals_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.equals_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.assign_parallelvector_scalar
+[0;32m[       OK ] [mOperations.equals_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.assign_parallelvector_scalar
+[0;32m[       OK ] [mOperations.assign_parallelvector_scalar (0 ms)
+[0;32m[ RUN      ] [mOperations.add_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.assign_parallelvector_scalar (0 ms)
+[0;32m[ RUN      ] [mOperations.add_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.add_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.subtract_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.subtract_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.parallel_dot_product
+[0;32m[       OK ] [mOperations.add_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.subtract_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.subtract_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.parallel_dot_product
+[0;32m[       OK ] [mOperations.parallel_dot_product (0 ms)
+[0;32m[ RUN      ] [mOperations.multiply_parallelsparsematrix_parallelvector
+[0;32m[       OK ] [mOperations.multiply_parallelsparsematrix_parallelvector (0 ms)
+[0;32m[       OK ] [mOperations.parallel_dot_product (0 ms)
+[0;32m[ RUN      ] [mOperations.multiply_parallelsparsematrix_parallelvector
+[0;32m[       OK ] [mOperations.multiply_parallelsparsematrix_parallelvector (0 ms)
+[0;32m[----------] [m6 tests from Operations (0 ms total)
+[0;32m[----------] [m6 tests from Operations (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m6 tests from 1 test case ran. (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m6 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m6 tests.
+[0;32m[  PASSED  ] [m6 tests.
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_operations_np2" end time: Feb 05 21:00 CET
+"test_parallel_operations_np2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/46 Testing: test_parallel_partition_np3
+16/46 Test: test_parallel_partition_np3
+Command: "/opt/homebrew/bin/mpiexec" "-n" "3" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_partition"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_partition_np3" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 4 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m4 tests from Partition
+[0;32m[ RUN      ] [mPartition.default_construct
+[0;32m[       OK ] [mPartition.default_construct (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_partition
+[0;32m[==========] [mRunning 4 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m4 tests from Partition
+[0;32m[ RUN      ] [mPartition.default_construct
+[0;32m[       OK ] [mPartition.create_with_partition (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_local_sizes
+[0;32m[       OK ] [mPartition.default_construct (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_partition
+[0;32m[       OK ] [mPartition.create_with_partition (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_local_sizes
+[0;32m[==========] [mRunning 4 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m4 tests from Partition
+[0;32m[ RUN      ] [mPartition.default_construct
+[0;32m[       OK ] [mPartition.default_construct (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_partition
+[0;32m[       OK ] [mPartition.create_with_partition (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_local_sizes
+[0;32m[       OK ] [mPartition.create_with_local_sizes (0 ms)
+[0;32m[ RUN      ] [mPartition.create_uniform
+[0;32m[       OK ] [mPartition.create_with_local_sizes (0 ms)
+[0;32m[ RUN      ] [mPartition.create_uniform
+[0;32m[       OK ] [mPartition.create_uniform (0 ms)
+[0;32m[----------] [m4 tests from Partition (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m4 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m4 tests.
+[0;32m[       OK ] [mPartition.create_with_local_sizes (0 ms)
+[0;32m[ RUN      ] [mPartition.create_uniform
+[0;32m[       OK ] [mPartition.create_uniform (0 ms)
+[0;32m[----------] [m4 tests from Partition (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m4 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m4 tests.
+[0;32m[       OK ] [mPartition.create_uniform (0 ms)
+[0;32m[----------] [m4 tests from Partition (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m4 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m4 tests.
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_partition_np3" end time: Feb 05 21:00 CET
+"test_parallel_partition_np3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/46 Testing: test_parallel_vector_np3
+17/46 Test: test_parallel_vector_np3
+Command: "/opt/homebrew/bin/mpiexec" "-n" "3" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_vector"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_vector_np3" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 3 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m3 tests from ParallelVectorDouble
+[0;32m[ RUN      ] [mParallelVectorDouble.local_values_construct
+[0;32m[==========] [mRunning 3 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m3 tests from ParallelVectorDouble
+[0;32m[ RUN      ] [mParallelVectorDouble.local_values_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_values_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.local_size_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_size_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.partition_construct
+[0;32m[       OK ] [mParallelVectorDouble.partition_construct (0 ms)
+[0;32m[==========] [mRunning 3 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m3 tests from ParallelVectorDouble
+[0;32m[ RUN      ] [mParallelVectorDouble.local_values_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_values_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.local_size_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_size_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.partition_construct
+[0;32m[       OK ] [mParallelVectorDouble.partition_construct (0 ms)
+[0;32m[----------] [m3 tests from ParallelVectorDouble (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m3 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m3 tests.
+[0;32m[----------] [m3 tests from ParallelVectorDouble (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m3 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m3 tests.
+[0;32m[       OK ] [mParallelVectorDouble.local_values_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.local_size_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_size_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.partition_construct
+[0;32m[       OK ] [mParallelVectorDouble.partition_construct (0 ms)
+[0;32m[----------] [m3 tests from ParallelVectorDouble (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m3 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m3 tests.
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_vector_np3" end time: Feb 05 21:00 CET
+"test_parallel_vector_np3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/46 Testing: test_parallel_matrix_np3
+18/46 Test: test_parallel_matrix_np3
+Command: "/opt/homebrew/bin/mpiexec" "-n" "3" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_matrix"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_matrix_np3" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ParallelSparseMatrix
+[0;32m[ RUN      ] [mParallelSparseMatrix.local_values_construct
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ParallelSparseMatrix
+[0;32m[ RUN      ] [mParallelSparseMatrix.local_values_construct
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ParallelSparseMatrix
+[0;32m[ RUN      ] [mParallelSparseMatrix.local_values_construct
+[0;32m[       OK ] [mParallelSparseMatrix.local_values_construct (0 ms)
+[0;32m[ RUN      ] [mParallelSparseMatrix.partition_local_values_construct
+[0;32m[       OK ] [mParallelSparseMatrix.partition_local_values_construct (0 ms)
+[0;32m[----------] [m2 tests from ParallelSparseMatrix (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[       OK ] [mParallelSparseMatrix.local_values_construct (0 ms)
+[0;32m[ RUN      ] [mParallelSparseMatrix.partition_local_values_construct
+[0;32m[       OK ] [mParallelSparseMatrix.partition_local_values_construct (0 ms)
+[0;32m[----------] [m2 tests from ParallelSparseMatrix (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[       OK ] [mParallelSparseMatrix.local_values_construct (0 ms)
+[0;32m[ RUN      ] [mParallelSparseMatrix.partition_local_values_construct
+[0;32m[       OK ] [mParallelSparseMatrix.partition_local_values_construct (0 ms)
+[0;32m[----------] [m2 tests from ParallelSparseMatrix (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_matrix_np3" end time: Feb 05 21:00 CET
+"test_parallel_matrix_np3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/46 Testing: test_parallel_exchangepattern_np3
+19/46 Test: test_parallel_exchangepattern_np3
+Command: "/opt/homebrew/bin/mpiexec" "-n" "3" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_exchangepattern"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_exchangepattern_np3" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_diagonal_matrix
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_diagonal_matrix
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_diagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_diagonal_matrix (0 ms)
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m2 tests from ExchangePattern (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[       OK ] [mExchangePattern.create_diagonal_matrix (0 ms)
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m2 tests from ExchangePattern (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (1 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[       OK ] [mExchangePattern.create_diagonal_matrix (0 ms)
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m2 tests from ExchangePattern (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (1 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_exchangepattern_np3" end time: Feb 05 21:00 CET
+"test_parallel_exchangepattern_np3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/46 Testing: test_parallel_exchangedata_np3
+20/46 Test: test_parallel_exchangedata_np3
+Command: "/opt/homebrew/bin/mpiexec" "-n" "3" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_exchangedata"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_exchangedata_np3" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 2 tests from 2 test cases.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ExchangeData
+[0;32m[ RUN      ] [mExchangeData.exchange_tri_diagonal
+[0;32m[==========] [mRunning 2 tests from 2 test cases.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ExchangeData
+[0;32m[ RUN      ] [mExchangeData.exchange_tri_diagonal
+[0;32m[==========] [mRunning 2 tests from 2 test cases.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ExchangeData
+[0;32m[ RUN      ] [mExchangeData.exchange_tri_diagonal
+[0;32m[       OK ] [mExchangeData.exchange_tri_diagonal (0 ms)
+[0;32m[----------] [m1 test from ExchangeData (0 ms total)
+
+[0;32m[----------] [m1 test from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m1 test from ExchangePattern (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 2 test cases ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[       OK ] [mExchangeData.exchange_tri_diagonal (0 ms)
+[0;32m[----------] [m1 test from ExchangeData (0 ms total)
+
+[0;32m[----------] [m1 test from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m1 test from ExchangePattern (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 2 test cases ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[       OK ] [mExchangeData.exchange_tri_diagonal (0 ms)
+[0;32m[----------] [m1 test from ExchangeData (0 ms total)
+
+[0;32m[----------] [m1 test from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m1 test from ExchangePattern (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 2 test cases ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_exchangedata_np3" end time: Feb 05 21:00 CET
+"test_parallel_exchangedata_np3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/46 Testing: test_parallel_operations_np3
+21/46 Test: test_parallel_operations_np3
+Command: "/opt/homebrew/bin/mpiexec" "-n" "3" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_operations"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_operations_np3" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 6 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m6 tests from Operations
+[0;32m[ RUN      ] [mOperations.equals_parallelvector_parallelvector
+[0;32m[==========] [mRunning 6 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m6 tests from Operations
+[0;32m[ RUN      ] [mOperations.equals_parallelvector_parallelvector
+[0;32m[==========] [mRunning 6 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m6 tests from Operations
+[0;32m[ RUN      ] [mOperations.equals_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.equals_parallelvector_parallelvector (1 ms)
+[0;32m[ RUN      ] [mOperations.assign_parallelvector_scalar
+[0;32m[       OK ] [mOperations.equals_parallelvector_parallelvector (1 ms)
+[0;32m[ RUN      ] [mOperations.assign_parallelvector_scalar
+[0;32m[       OK ] [mOperations.assign_parallelvector_scalar (0 ms)
+[0;32m[ RUN      ] [mOperations.add_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.equals_parallelvector_parallelvector (1 ms)
+[0;32m[ RUN      ] [mOperations.assign_parallelvector_scalar
+[0;32m[       OK ] [mOperations.assign_parallelvector_scalar (0 ms)
+[0;32m[ RUN      ] [mOperations.add_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.assign_parallelvector_scalar (0 ms)
+[0;32m[ RUN      ] [mOperations.add_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.add_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.subtract_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.add_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.subtract_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.add_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.subtract_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.subtract_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.parallel_dot_product
+[0;32m[       OK ] [mOperations.subtract_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.parallel_dot_product
+[0;32m[       OK ] [mOperations.parallel_dot_product (0 ms)
+[0;32m[ RUN      ] [mOperations.multiply_parallelsparsematrix_parallelvector
+[0;32m[       OK ] [mOperations.subtract_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.parallel_dot_product
+[0;32m[       OK ] [mOperations.parallel_dot_product (0 ms)
+[0;32m[ RUN      ] [mOperations.multiply_parallelsparsematrix_parallelvector
+[0;32m[       OK ] [mOperations.parallel_dot_product (0 ms)
+[0;32m[ RUN      ] [mOperations.multiply_parallelsparsematrix_parallelvector
+[0;32m[       OK ] [mOperations.multiply_parallelsparsematrix_parallelvector (0 ms)
+[0;32m[----------] [m6 tests from Operations (1 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m6 tests from 1 test case ran. (1 ms total)
+[0;32m[  PASSED  ] [m6 tests.
+[0;32m[       OK ] [mOperations.multiply_parallelsparsematrix_parallelvector (0 ms)
+[0;32m[----------] [m6 tests from Operations (1 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m6 tests from 1 test case ran. (1 ms total)
+[0;32m[  PASSED  ] [m6 tests.
+[0;32m[       OK ] [mOperations.multiply_parallelsparsematrix_parallelvector (0 ms)
+[0;32m[----------] [m6 tests from Operations (1 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m6 tests from 1 test case ran. (1 ms total)
+[0;32m[  PASSED  ] [m6 tests.
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_operations_np3" end time: Feb 05 21:00 CET
+"test_parallel_operations_np3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/46 Testing: test_parallel_partition_np4
+22/46 Test: test_parallel_partition_np4
+Command: "/opt/homebrew/bin/mpiexec" "-n" "4" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_partition"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_partition_np4" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 4 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m4 tests from Partition
+[0;32m[ RUN      ] [mPartition.default_construct
+[0;32m[       OK ] [mPartition.default_construct (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_partition
+[0;32m[       OK ] [mPartition.create_with_partition (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_local_sizes
+[0;32m[==========] [mRunning 4 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m4 tests from Partition
+[0;32m[ RUN      ] [mPartition.default_construct
+[0;32m[       OK ] [mPartition.default_construct (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_partition
+[0;32m[       OK ] [mPartition.create_with_partition (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_local_sizes
+[0;32m[       OK ] [mPartition.create_with_local_sizes (0 ms)
+[0;32m[ RUN      ] [mPartition.create_uniform
+[0;32m[       OK ] [mPartition.create_uniform (0 ms)
+[0;32m[----------] [m4 tests from Partition (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m4 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m4 tests.
+[0;32m[==========] [mRunning 4 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m4 tests from Partition
+[0;32m[ RUN      ] [mPartition.default_construct
+[0;32m[       OK ] [mPartition.default_construct (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_partition
+[0;32m[       OK ] [mPartition.create_with_partition (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_local_sizes
+[0;32m[       OK ] [mPartition.create_with_local_sizes (0 ms)
+[0;32m[ RUN      ] [mPartition.create_uniform
+[0;32m[       OK ] [mPartition.create_uniform (0 ms)
+[0;32m[----------] [m4 tests from Partition (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m4 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m4 tests.
+[0;32m[       OK ] [mPartition.create_with_local_sizes (0 ms)
+[0;32m[ RUN      ] [mPartition.create_uniform
+[0;32m[       OK ] [mPartition.create_uniform (0 ms)
+[0;32m[----------] [m4 tests from Partition (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m4 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m4 tests.
+[0;32m[==========] [mRunning 4 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m4 tests from Partition
+[0;32m[ RUN      ] [mPartition.default_construct
+[0;32m[       OK ] [mPartition.default_construct (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_partition
+[0;32m[       OK ] [mPartition.create_with_partition (0 ms)
+[0;32m[ RUN      ] [mPartition.create_with_local_sizes
+[0;32m[       OK ] [mPartition.create_with_local_sizes (0 ms)
+[0;32m[ RUN      ] [mPartition.create_uniform
+[0;32m[       OK ] [mPartition.create_uniform (0 ms)
+[0;32m[----------] [m4 tests from Partition (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m4 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m4 tests.
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_partition_np4" end time: Feb 05 21:00 CET
+"test_parallel_partition_np4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/46 Testing: test_parallel_vector_np4
+23/46 Test: test_parallel_vector_np4
+Command: "/opt/homebrew/bin/mpiexec" "-n" "4" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_vector"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_vector_np4" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 3 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m3 tests from ParallelVectorDouble
+[0;32m[ RUN      ] [mParallelVectorDouble.local_values_construct
+[0;32m[==========] [mRunning 3 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m3 tests from ParallelVectorDouble
+[0;32m[ RUN      ] [mParallelVectorDouble.local_values_construct
+[0;32m[==========] [mRunning 3 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m3 tests from ParallelVectorDouble
+[0;32m[ RUN      ] [mParallelVectorDouble.local_values_construct
+[0;32m[==========] [mRunning 3 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m3 tests from ParallelVectorDouble
+[0;32m[ RUN      ] [mParallelVectorDouble.local_values_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_values_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.local_size_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_values_construct (1 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.local_size_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_values_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.local_size_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_values_construct (1 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.local_size_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_size_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.partition_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_size_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.partition_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_size_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.partition_construct
+[0;32m[       OK ] [mParallelVectorDouble.local_size_construct (0 ms)
+[0;32m[ RUN      ] [mParallelVectorDouble.partition_construct
+[0;32m[       OK ] [mParallelVectorDouble.partition_construct (0 ms)
+[0;32m[       OK ] [mParallelVectorDouble.partition_construct (0 ms)
+[0;32m[----------] [m3 tests from ParallelVectorDouble (1 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m3 tests from 1 test case ran. (1 ms total)
+[0;32m[  PASSED  ] [m3 tests.
+[0;32m[       OK ] [mParallelVectorDouble.partition_construct (0 ms)
+[0;32m[----------] [m3 tests from ParallelVectorDouble (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m3 tests from 1 test case ran. (1 ms total)
+[0;32m[  PASSED  ] [m3 tests.
+[0;32m[       OK ] [mParallelVectorDouble.partition_construct (0 ms)
+[0;32m[----------] [m3 tests from ParallelVectorDouble (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[----------] [m3 tests from ParallelVectorDouble (1 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m3 tests from 1 test case ran. (1 ms total)
+[0;32m[  PASSED  ] [m3 tests.
+[0;32m[==========] [m3 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m3 tests.
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_vector_np4" end time: Feb 05 21:00 CET
+"test_parallel_vector_np4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/46 Testing: test_parallel_matrix_np4
+24/46 Test: test_parallel_matrix_np4
+Command: "/opt/homebrew/bin/mpiexec" "-n" "4" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_matrix"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_matrix_np4" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ParallelSparseMatrix
+[0;32m[ RUN      ] [mParallelSparseMatrix.local_values_construct
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ParallelSparseMatrix
+[0;32m[ RUN      ] [mParallelSparseMatrix.local_values_construct
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ParallelSparseMatrix
+[0;32m[ RUN      ] [mParallelSparseMatrix.local_values_construct
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ParallelSparseMatrix
+[0;32m[ RUN      ] [mParallelSparseMatrix.local_values_construct
+[0;32m[       OK ] [mParallelSparseMatrix.local_values_construct (0 ms)
+[0;32m[ RUN      ] [mParallelSparseMatrix.partition_local_values_construct
+[0;32m[       OK ] [mParallelSparseMatrix.local_values_construct (1 ms)
+[0;32m[ RUN      ] [mParallelSparseMatrix.partition_local_values_construct
+[0;32m[       OK ] [mParallelSparseMatrix.local_values_construct (1 ms)
+[0;32m[ RUN      ] [mParallelSparseMatrix.partition_local_values_construct
+[0;32m[       OK ] [mParallelSparseMatrix.local_values_construct (1 ms)
+[0;32m[ RUN      ] [mParallelSparseMatrix.partition_local_values_construct
+[0;32m[       OK ] [mParallelSparseMatrix.partition_local_values_construct (0 ms)
+[0;32m[----------] [m2 tests from ParallelSparseMatrix (1 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (1 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[       OK ] [mParallelSparseMatrix.partition_local_values_construct (0 ms)
+[0;32m[----------] [m2 tests from ParallelSparseMatrix (1 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (1 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[       OK ] [mParallelSparseMatrix.partition_local_values_construct (0 ms)
+[0;32m[----------] [m2 tests from ParallelSparseMatrix (1 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (1 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[       OK ] [mParallelSparseMatrix.partition_local_values_construct (0 ms)
+[0;32m[----------] [m2 tests from ParallelSparseMatrix (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_matrix_np4" end time: Feb 05 21:00 CET
+"test_parallel_matrix_np4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/46 Testing: test_parallel_exchangepattern_np4
+25/46 Test: test_parallel_exchangepattern_np4
+Command: "/opt/homebrew/bin/mpiexec" "-n" "4" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_exchangepattern"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_exchangepattern_np4" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_diagonal_matrix
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_diagonal_matrix
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_diagonal_matrix
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_diagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_diagonal_matrix (0 ms)
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_diagonal_matrix (0 ms)
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_diagonal_matrix (0 ms)
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_diagonal_matrix (0 ms)
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m2 tests from ExchangePattern (0 ms total)
+
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m2 tests from ExchangePattern (1 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m2 tests from ExchangePattern (1 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (1 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m2 tests from ExchangePattern (1 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (1 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 1 test case ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[==========] [m2 tests from 1 test case ran. (1 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_exchangepattern_np4" end time: Feb 05 21:00 CET
+"test_parallel_exchangepattern_np4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/46 Testing: test_parallel_exchangedata_np4
+26/46 Test: test_parallel_exchangedata_np4
+Command: "/opt/homebrew/bin/mpiexec" "-n" "4" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_exchangedata"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_exchangedata_np4" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 2 tests from 2 test cases.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ExchangeData
+[0;32m[ RUN      ] [mExchangeData.exchange_tri_diagonal
+[0;32m[==========] [mRunning 2 tests from 2 test cases.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ExchangeData
+[0;32m[ RUN      ] [mExchangeData.exchange_tri_diagonal
+[0;32m[==========] [mRunning 2 tests from 2 test cases.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ExchangeData
+[0;32m[ RUN      ] [mExchangeData.exchange_tri_diagonal
+[0;32m[==========] [mRunning 2 tests from 2 test cases.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ExchangeData
+[0;32m[ RUN      ] [mExchangeData.exchange_tri_diagonal
+[0;32m[       OK ] [mExchangeData.exchange_tri_diagonal (0 ms)
+[0;32m[----------] [m1 test from ExchangeData (0 ms total)
+
+[0;32m[----------] [m1 test from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangeData.exchange_tri_diagonal (0 ms)
+[0;32m[----------] [m1 test from ExchangeData (0 ms total)
+
+[0;32m[----------] [m1 test from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangeData.exchange_tri_diagonal (0 ms)
+[0;32m[----------] [m1 test from ExchangeData (0 ms total)
+
+[0;32m[----------] [m1 test from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangeData.exchange_tri_diagonal (0 ms)
+[0;32m[----------] [m1 test from ExchangeData (0 ms total)
+
+[0;32m[----------] [m1 test from ExchangePattern
+[0;32m[ RUN      ] [mExchangePattern.create_tridiagonal_matrix
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m1 test from ExchangePattern (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 2 test cases ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m1 test from ExchangePattern (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 2 test cases ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m1 test from ExchangePattern (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 2 test cases ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+[0;32m[       OK ] [mExchangePattern.create_tridiagonal_matrix (0 ms)
+[0;32m[----------] [m1 test from ExchangePattern (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m2 tests from 2 test cases ran. (0 ms total)
+[0;32m[  PASSED  ] [m2 tests.
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_exchangedata_np4" end time: Feb 05 21:00 CET
+"test_parallel_exchangedata_np4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/46 Testing: test_parallel_operations_np4
+27/46 Test: test_parallel_operations_np4
+Command: "/opt/homebrew/bin/mpiexec" "-n" "4" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_operations"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_operations_np4" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 6 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m6 tests from Operations
+[0;32m[ RUN      ] [mOperations.equals_parallelvector_parallelvector
+[0;32m[==========] [mRunning 6 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m6 tests from Operations
+[0;32m[ RUN      ] [mOperations.equals_parallelvector_parallelvector
+[0;32m[==========] [mRunning 6 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m6 tests from Operations
+[0;32m[ RUN      ] [mOperations.equals_parallelvector_parallelvector
+[0;32m[==========] [mRunning 6 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m6 tests from Operations
+[0;32m[ RUN      ] [mOperations.equals_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.equals_parallelvector_parallelvector (4 ms)
+[0;32m[ RUN      ] [mOperations.assign_parallelvector_scalar
+[0;32m[       OK ] [mOperations.assign_parallelvector_scalar (0 ms)
+[0;32m[ RUN      ] [mOperations.add_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.add_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.subtract_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.subtract_parallelvector_parallelvector (0 ms)
+[0;32m[       OK ] [mOperations.equals_parallelvector_parallelvector (4 ms)
+[0;32m[ RUN      ] [mOperations.assign_parallelvector_scalar
+[0;32m[       OK ] [mOperations.assign_parallelvector_scalar (0 ms)
+[0;32m[ RUN      ] [mOperations.add_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.add_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.subtract_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.subtract_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.parallel_dot_product
+[0;32m[       OK ] [mOperations.equals_parallelvector_parallelvector (4 ms)
+[0;32m[ RUN      ] [mOperations.assign_parallelvector_scalar
+[0;32m[       OK ] [mOperations.assign_parallelvector_scalar (0 ms)
+[0;32m[ RUN      ] [mOperations.add_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.add_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.subtract_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.subtract_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.parallel_dot_product
+[0;32m[       OK ] [mOperations.parallel_dot_product (0 ms)
+[0;32m[ RUN      ] [mOperations.multiply_parallelsparsematrix_parallelvector
+[0;32m[       OK ] [mOperations.equals_parallelvector_parallelvector (4 ms)
+[0;32m[ RUN      ] [mOperations.assign_parallelvector_scalar
+[0;32m[       OK ] [mOperations.assign_parallelvector_scalar (0 ms)
+[0;32m[ RUN      ] [mOperations.add_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.add_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.subtract_parallelvector_parallelvector
+[0;32m[       OK ] [mOperations.subtract_parallelvector_parallelvector (0 ms)
+[0;32m[ RUN      ] [mOperations.parallel_dot_product
+[0;32m[       OK ] [mOperations.parallel_dot_product (0 ms)
+[0;32m[ RUN      ] [mOperations.multiply_parallelsparsematrix_parallelvector
+[0;32m[ RUN      ] [mOperations.parallel_dot_product
+[0;32m[       OK ] [mOperations.parallel_dot_product (0 ms)
+[0;32m[ RUN      ] [mOperations.multiply_parallelsparsematrix_parallelvector
+[0;32m[       OK ] [mOperations.parallel_dot_product (0 ms)
+[0;32m[ RUN      ] [mOperations.multiply_parallelsparsematrix_parallelvector
+[0;32m[       OK ] [mOperations.multiply_parallelsparsematrix_parallelvector (0 ms)
+[0;32m[----------] [m6 tests from Operations (4 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[       OK ] [mOperations.multiply_parallelsparsematrix_parallelvector (0 ms)
+[0;32m[----------] [m6 tests from Operations (4 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m6 tests from 1 test case ran. (4 ms total)
+[0;32m[       OK ] [mOperations.multiply_parallelsparsematrix_parallelvector (0 ms)
+[0;32m[----------] [m6 tests from Operations (4 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m6 tests from 1 test case ran. (4 ms total)
+[0;32m[  PASSED  ] [m6 tests.
+[0;32m[       OK ] [mOperations.multiply_parallelsparsematrix_parallelvector (0 ms)
+[0;32m[----------] [m6 tests from Operations (4 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m6 tests from 1 test case ran. (4 ms total)
+[0;32m[  PASSED  ] [m6 tests.
+[0;32m[==========] [m6 tests from 1 test case ran. (4 ms total)
+[0;32m[  PASSED  ] [m6 tests.
+[0;32m[  PASSED  ] [m6 tests.
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_operations_np4" end time: Feb 05 21:00 CET
+"test_parallel_operations_np4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/46 Testing: test_solvers
+28/46 Test: test_solvers
+Command: "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_solvers"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_solvers" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from Solvers
+[ RUN      ] Solvers.richardson_jacobi
+[       OK ] Solvers.richardson_jacobi (2 ms)
+[ RUN      ] Solvers.richardson_gauss_seidel
+[       OK ] Solvers.richardson_gauss_seidel (0 ms)
+[ RUN      ] Solvers.cg_jacobi
+pre
+4
+[       OK ] Solvers.cg_jacobi (0 ms)
+[----------] 3 tests from Solvers (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (2 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.45 sec
+----------------------------------------------------------
+Test Passed.
+"test_solvers" end time: Feb 05 21:00 CET
+"test_solvers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/46 Testing: test_parallel_grid_1d_np1
+29/46 Test: test_parallel_grid_1d_np1
+Command: "/opt/homebrew/bin/mpiexec" "-n" "1" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_grid_1d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_grid_1d_np1" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[       OK ] [mRegularGrid.node_counts (4 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.node_coordinates (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (4 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (4 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_grid_1d_np1" end time: Feb 05 21:00 CET
+"test_parallel_grid_1d_np1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/46 Testing: test_parallel_grid_2d_np1
+30/46 Test: test_parallel_grid_2d_np1
+Command: "/opt/homebrew/bin/mpiexec" "-n" "1" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_grid_2d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_grid_2d_np1" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.node_coordinates (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (3 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (3 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_grid_2d_np1" end time: Feb 05 21:00 CET
+"test_parallel_grid_2d_np1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/46 Testing: test_parallel_grid_3d_np1
+31/46 Test: test_parallel_grid_3d_np1
+Command: "/opt/homebrew/bin/mpiexec" "-n" "1" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_grid_3d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_grid_3d_np1" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.node_coordinates (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (3 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (3 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_grid_3d_np1" end time: Feb 05 21:00 CET
+"test_parallel_grid_3d_np1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/46 Testing: test_parallel_grid_1d_np2
+32/46 Test: test_parallel_grid_1d_np2
+Command: "/opt/homebrew/bin/mpiexec" "-n" "2" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_grid_1d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_grid_1d_np2" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.node_coordinates (1 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_coordinates (1 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (4 ms total)
+
+[0;32m[----------] [m5 tests from RegularGrid (4 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (4 ms total)
+[0;32m[==========] [m5 tests from 1 test case ran. (4 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[  PASSED  ] [m5 tests.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_grid_1d_np2" end time: Feb 05 21:00 CET
+"test_parallel_grid_1d_np2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/46 Testing: test_parallel_grid_2d_np2
+33/46 Test: test_parallel_grid_2d_np2
+Command: "/opt/homebrew/bin/mpiexec" "-n" "2" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_grid_2d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_grid_2d_np2" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.node_coordinates (1 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_coordinates (1 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (4 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (4 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (4 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[==========] [m5 tests from 1 test case ran. (4 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_grid_2d_np2" end time: Feb 05 21:00 CET
+"test_parallel_grid_2d_np2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/46 Testing: test_parallel_grid_3d_np2
+34/46 Test: test_parallel_grid_3d_np2
+Command: "/opt/homebrew/bin/mpiexec" "-n" "2" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_grid_3d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_grid_3d_np2" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.node_coordinates (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_coordinates (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (3 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (3 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (3 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (3 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_grid_3d_np2" end time: Feb 05 21:00 CET
+"test_parallel_grid_3d_np2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/46 Testing: test_parallel_grid_1d_np3
+35/46 Test: test_parallel_grid_1d_np3
+Command: "/opt/homebrew/bin/mpiexec" "-n" "3" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_grid_1d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_grid_1d_np3" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.node_coordinates (4 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_coordinates (4 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_coordinates (4 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (7 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (7 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (7 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (7 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (7 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (7 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_grid_1d_np3" end time: Feb 05 21:00 CET
+"test_parallel_grid_1d_np3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/46 Testing: test_parallel_grid_2d_np3
+36/46 Test: test_parallel_grid_2d_np3
+Command: "/opt/homebrew/bin/mpiexec" "-n" "3" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_grid_2d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_grid_2d_np3" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[       OK ] [mRegularGrid.node_counts (4 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.node_counts (4 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.node_counts (4 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.node_coordinates (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_coordinates (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_coordinates (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (4 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (4 ms total)
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (4 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (4 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (4 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[==========] [m5 tests from 1 test case ran. (4 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[  PASSED  ] [m5 tests.
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_grid_2d_np3" end time: Feb 05 21:00 CET
+"test_parallel_grid_2d_np3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/46 Testing: test_parallel_grid_3d_np3
+37/46 Test: test_parallel_grid_3d_np3
+Command: "/opt/homebrew/bin/mpiexec" "-n" "3" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_grid_3d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_grid_3d_np3" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[       OK ] [mRegularGrid.node_counts (4 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.node_counts (4 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.node_coordinates (1 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_coordinates (1 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_coordinates (1 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (1 ms)
+[0;32m[----------] [m5 tests from RegularGrid (6 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (6 ms total)
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (1 ms)
+[0;32m[----------] [m5 tests from RegularGrid (6 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (6 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (1 ms)
+[0;32m[----------] [m5 tests from RegularGrid (5 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (6 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_grid_3d_np3" end time: Feb 05 21:00 CET
+"test_parallel_grid_3d_np3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/46 Testing: test_parallel_grid_1d_np4
+38/46 Test: test_parallel_grid_1d_np4
+Command: "/opt/homebrew/bin/mpiexec" "-n" "4" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_grid_1d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_grid_1d_np4" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.node_coordinates (4 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_coordinates (4 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_coordinates (6 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_coordinates (6 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (9 ms total)
+
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (2 ms)
+[0;32m[----------] [m5 tests from RegularGrid (9 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (9 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (9 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (9 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (2 ms)
+[0;32m[----------] [m5 tests from RegularGrid (9 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (9 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (9 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_grid_1d_np4" end time: Feb 05 21:00 CET
+"test_parallel_grid_1d_np4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/46 Testing: test_parallel_grid_2d_np4
+39/46 Test: test_parallel_grid_2d_np4
+Command: "/opt/homebrew/bin/mpiexec" "-n" "4" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_grid_2d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_grid_2d_np4" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.node_coordinates (4 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_coordinates (4 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_coordinates (6 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (9 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (9 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (2 ms)
+[0;32m[----------] [m5 tests from RegularGrid (9 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (9 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[       OK ] [mRegularGrid.node_coordinates (6 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (9 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (9 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (2 ms)
+[0;32m[----------] [m5 tests from RegularGrid (9 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (9 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_grid_2d_np4" end time: Feb 05 21:00 CET
+"test_parallel_grid_2d_np4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/46 Testing: test_parallel_grid_3d_np4
+40/46 Test: test_parallel_grid_3d_np4
+Command: "/opt/homebrew/bin/mpiexec" "-n" "4" "--oversubscribe" "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_parallel_grid_3d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_parallel_grid_3d_np4" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from RegularGrid
+[0;32m[ RUN      ] [mRegularGrid.node_counts
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.node_counts (3 ms)
+[0;32m[ RUN      ] [mRegularGrid.neighborhoods
+[0;32m[       OK ] [mRegularGrid.neighborhoods (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.boundary_flags
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.boundary_flags (0 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[ RUN      ] [mRegularGrid.node_coordinates
+[0;32m[       OK ] [mRegularGrid.node_coordinates (4 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_coordinates (4 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_coordinates (6 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[       OK ] [mRegularGrid.node_coordinates (6 ms)
+[0;32m[ RUN      ] [mRegularGrid.node_neighbor_distance
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (0 ms)
+[0;32m[----------] [m5 tests from RegularGrid (9 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[----------] [m5 tests from RegularGrid (9 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (9 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (2 ms)
+[0;32m[----------] [m5 tests from RegularGrid (9 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (9 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[==========] [m5 tests from 1 test case ran. (9 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+[0;32m[       OK ] [mRegularGrid.node_neighbor_distance (2 ms)
+[0;32m[----------] [m5 tests from RegularGrid (9 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (9 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"test_parallel_grid_3d_np4" end time: Feb 05 21:00 CET
+"test_parallel_grid_3d_np4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/46 Testing: test_poisson_1d
+41/46 Test: test_poisson_1d
+Command: "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_poisson_1d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_poisson_1d" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Poisson
+[ RUN      ] Poisson.assemble
+[       OK ] Poisson.assemble (3 ms)
+[----------] 1 test from Poisson (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"test_poisson_1d" end time: Feb 05 21:00 CET
+"test_poisson_1d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/46 Testing: test_poisson_2d
+42/46 Test: test_poisson_2d
+Command: "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_poisson_2d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_poisson_2d" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Poisson
+[ RUN      ] Poisson.assemble
+[       OK ] Poisson.assemble (3 ms)
+[----------] 1 test from Poisson (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.54 sec
+----------------------------------------------------------
+Test Passed.
+"test_poisson_2d" end time: Feb 05 21:00 CET
+"test_poisson_2d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/46 Testing: test_poisson_3d
+43/46 Test: test_poisson_3d
+Command: "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_poisson_3d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_poisson_3d" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Poisson
+[ RUN      ] Poisson.assemble
+[       OK ] Poisson.assemble (3 ms)
+[----------] 1 test from Poisson (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.57 sec
+----------------------------------------------------------
+Test Passed.
+"test_poisson_3d" end time: Feb 05 21:00 CET
+"test_poisson_3d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/46 Testing: test_heat_1d
+44/46 Test: test_heat_1d
+Command: "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_heat_1d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_heat_1d" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Poisson
+[ RUN      ] Poisson.assemble
+[       OK ] Poisson.assemble (3 ms)
+[----------] 1 test from Poisson (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"test_heat_1d" end time: Feb 05 21:00 CET
+"test_heat_1d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/46 Testing: test_heat_2d
+45/46 Test: test_heat_2d
+Command: "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_heat_2d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_heat_2d" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Poisson
+[ RUN      ] Poisson.assemble
+[       OK ] Poisson.assemble (3 ms)
+[----------] 1 test from Poisson (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"test_heat_2d" end time: Feb 05 21:00 CET
+"test_heat_2d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/46 Testing: test_heat_3d
+46/46 Test: test_heat_3d
+Command: "/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests/test_heat_3d"
+Directory: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/tests
+"test_heat_3d" start time: Feb 05 21:00 CET
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Poisson
+[ RUN      ] Poisson.assemble
+[       OK ] Poisson.assemble (4 ms)
+[----------] 1 test from Poisson (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Passed.
+"test_heat_3d" end time: Feb 05 21:00 CET
+"test_heat_3d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 05 21:00 CET

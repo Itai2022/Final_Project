@@ -1,0 +1,56 @@
+Performing C++ SOURCE FILE Test Iconv_IS_BUILT_IN failed with the following output:
+Change Dir: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/CMakeFiles/CMakeScratch/TryCompile-B3WY4s
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_aec3e && [1/2] Building CXX object CMakeFiles/cmTC_aec3e.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_aec3e
+FAILED: cmTC_aec3e 
+: && /Library/Developer/CommandLineTools/usr/bin/c++ -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_aec3e.dir/src.cxx.o -o cmTC_aec3e   && :
+Undefined symbols for architecture arm64:
+  "_iconv", referenced from:
+      _main in src.cxx.o
+  "_iconv_close", referenced from:
+      _main in src.cxx.o
+  "_iconv_open", referenced from:
+      _main in src.cxx.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include <stddef.h>
+      #include <iconv.h>
+      int main() {
+        char *a, *b;
+        size_t i, j;
+        iconv_t ic;
+        ic = iconv_open("to", "from");
+        iconv(ic, &a, &i, &b, &j);
+        iconv_close(ic);
+      }
+      
+
+Performing C++ SOURCE FILE Test Intl_IS_BUILT_IN failed with the following output:
+Change Dir: /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/CMakeFiles/CMakeScratch/TryCompile-xoXINF
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_004c5 && [1/2] Building CXX object CMakeFiles/cmTC_004c5.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_004c5.dir/src.cxx.o 
+/Library/Developer/CommandLineTools/usr/bin/c++ -DIntl_IS_BUILT_IN  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_004c5.dir/src.cxx.o -MF CMakeFiles/cmTC_004c5.dir/src.cxx.o.d -o CMakeFiles/cmTC_004c5.dir/src.cxx.o -c /Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/CMakeFiles/CMakeScratch/TryCompile-xoXINF/src.cxx
+/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/CMakeFiles/CMakeScratch/TryCompile-xoXINF/src.cxx:1:10: fatal error: 'libintl.h' file not found
+#include <libintl.h>
+         ^~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <libintl.h>
+int main(void) {
+  gettext("");
+  dgettext("", "");
+  dcgettext("", "", 0);
+  return 0;
+}
+
+

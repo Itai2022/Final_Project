@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake;-P;/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/third-party/gtest/gtest-external-prefix/src/gtest-external-stamp/download-gtest-external.cmake;COMMAND;/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake;-P;/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/third-party/gtest/gtest-external-prefix/src/gtest-external-stamp/verify-gtest-external.cmake;COMMAND;/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake;-P;/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/third-party/gtest/gtest-external-prefix/src/gtest-external-stamp/extract-gtest-external.cmake
+source_dir=/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/third-party/gtest/gtest-external-prefix/src/gtest-external
+work_dir=/Users/winter/Desktop/pmsc-exercise-6-whiletrue/build/third-party/gtest/gtest-external-prefix/src
+url(s)=https://github.com/google/googletest/archive/release-1.8.0.tar.gz
+hash=
+no_extract=
+
